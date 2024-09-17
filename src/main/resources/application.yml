@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: Movie Reservation System
+  datasource:
+    url: jdbc:postgresql://localhost:5432/MRS
+    username:
+    password:
+    driver-class-name: org.postgresql.Driver
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
